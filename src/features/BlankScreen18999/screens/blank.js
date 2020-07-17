@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = {}
+  state = { Radio_3: true }
 
   render = () => (
     <View
@@ -122,6 +122,34 @@ export class _Blank extends React.Component {
       >
         Press me!
       </Button>
+      <Radio
+        text="Radio button"
+        disabled={false}
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderRadius: 0,
+          fontSize: 20,
+          color: "#c91d1d",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "200"
+        }}
+        checked={this.state.Radio_3}
+        onChange={nextChecked => this.setState({ Radio_3: nextChecked })}
+      />
     </View>
   )
 }
