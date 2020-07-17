@@ -86,7 +86,9 @@ export class _Blank extends React.Component {
           borderRightWidth: 0,
           borderTopWidth: 0,
           borderBottomWidth: 0,
-          borderRadius: 0
+          borderRadius: 0,
+          textTransform: "uppercase",
+          textShadow: "3pt 5pt 2pt #c72929"
         }}
       >
         My custom text element.
