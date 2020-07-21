@@ -216,7 +216,7 @@ export class _Blank extends React.Component {
       <Button
         backgroundColor="#3366FF"
         style={{
-          width: "100%",
+          width: "50%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
