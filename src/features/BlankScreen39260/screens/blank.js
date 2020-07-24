@@ -87,11 +87,10 @@ export class _Blank extends React.Component {
           borderTopWidth: 0,
           borderBottomWidth: 0,
           borderRadius: 0,
-          textShadow: "0pt 0pt 0pt #000000",
           textDecorationLine: "none",
           textTransform: "none",
           lineHeight: 12,
-          letterSpacing: 3
+          letterSpacing: 2
         }}
       >
         Sample text content
